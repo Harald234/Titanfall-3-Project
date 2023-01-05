@@ -7,7 +7,8 @@ For the multiplayer we have used Photon Fusion to get a simple yet capable netwo
 
 Known Issues:
 - Special actions like jump and dash do not trigger sometimes.
-- Movement might be junky on clients.
+- Movement is junky on clients.
+- Titan Camera Y movement doesn't work.
 
 # Credits
 Mainly developed by [Harald](https://www.youtube.com/@harald1)<br>

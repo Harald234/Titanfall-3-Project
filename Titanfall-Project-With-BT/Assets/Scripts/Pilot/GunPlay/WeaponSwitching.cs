@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Fusion;
@@ -28,9 +29,13 @@ public class WeaponSwitching : NetworkBehaviour
     public string[] weaponTypes = new string[] { "Primary", "Secondary", "AntiTitan" };
     public bool[] isActive = new bool[] { false, false, false };
 
-    private void Start()
+    private void Awake()
     {
         inputHandling = GetComponentInParent<PlayerInputHandling>();
+    }
+
+    private void Start()
+    {
         Instantiate(primary, transform);
         Instantiate(secondary, transform);
         Instantiate(antiTitan, transform);

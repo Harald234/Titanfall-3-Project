@@ -10093,7 +10093,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Runner: {fileID: 0}
   _playerPrefab:
-    RawGuidValue: 39499910ecec3b349aad9ced288f23a0
+    RawGuidValue: 14181e69731047e47bac39fedc8f8116
   _vanguardTitanPrefab:
     RawGuidValue: cf462d6715c994f4d848251fb0993fa2
   InputProviderGameObject: {fileID: 2046223930}
